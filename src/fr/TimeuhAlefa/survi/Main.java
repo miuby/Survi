@@ -35,6 +35,7 @@ public class Main extends JavaPlugin {
         saveConfig();
 
         world = Bukkit.getServer().getWorlds().get(0);
+        timer.Update();
 
         for(Player player : Bukkit.getOnlinePlayers())
         {

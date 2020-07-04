@@ -31,7 +31,7 @@ public class Timer {
                 else {
                     tick = Math.round(seconds/5.4f) - 4000;
                 }
-                plugin.world.setTime(tick);
+                plugin.world.setTime(tick+2400);
             }
         }, 0, 20);
     }
