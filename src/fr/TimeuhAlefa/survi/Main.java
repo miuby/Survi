@@ -20,7 +20,7 @@ public class Main extends JavaPlugin {
     private final PlayerListener playerListener = new PlayerListener(this);
     private final ServerListener serverListener = new ServerListener(this);
     private final Commands commands = new Commands(this);
-    private World world;
+    public World world;
 
     final Scoreboard board = Bukkit.getScoreboardManager().getMainScoreboard();
 
