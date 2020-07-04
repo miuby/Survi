@@ -1,4 +1,3 @@
-name:survi
-version:0.1
-author:Miuby
-main:Main
+name: Survi
+version: 0.1
+main: fr.TimeuhAlefa.survi.Main
